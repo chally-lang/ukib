@@ -1,0 +1,25 @@
+
+.pdf-container{
+    display: flex;
+    justify-content: center;
+    user-select: none;
+    
+
+}
+
+.wrap{
+    margin: auto 5rem;
+}
+
+
+.controls {
+    color: blueviolet;
+    justify-content: center;
+    justify-items: center;
+}
+
+@media print {
+    .pdf-container{
+        display: none;
+    }
+}
